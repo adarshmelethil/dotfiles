@@ -1,0 +1,6 @@
+#!/bin/sh
+function pullscript () {
+	wget $1 && chmod +x `echo $_ | sed 's/.*\/\(.*\)$/\1/'`
+}
+pullscript https://raw.githubusercontent.com/plexus/dotfiles/master/connect-the-dots 
+pullscript https://github.com/plexus/dotfiles/blob/master/sync
