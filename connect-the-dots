@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
-
+#!/usr/bin/env zsh
+# pulled from https://github.com/plexus/dotfiles.git
 print_linking() {
     echo $'\e[34m[\e[33m⇠\e[34m]\e[0m' "$@"
 }
